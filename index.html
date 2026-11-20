@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<meta name="theme-color" content="#14233C">
+<title>Briefing Twinjet</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" id="homeBtn" role="button" tabindex="0">
+    <span class="logo">✈</span>
+    <div><div class="title">Briefing prévol</div><div class="sub">Twinjet · B1900D · Perf. A · CAT I</div></div>
+  </div>
+  <div class="actions">
+    <span id="dataAge" class="badge">Chargement…</span>
+    <button id="settingsBtn" class="icon" aria-label="Réglages">⚙︎</button>
+  </div>
+</header>
+
+<main id="app">
+  <section id="stepRotation" class="step">
+    <h2>1. Rotation</h2>
+    <div id="rotations" class="grid"></div>
+  </section>
+
+  <section id="stepHoraire" class="step hidden">
+    <h2>2. Horaire <button class="link" data-back="stepRotation">← changer de rotation</button></h2>
+    <div id="horaires" class="list"></div>
+  </section>
+
+  <section id="stepDate" class="step hidden">
+    <h2>3. Date (UTC) <button class="link" data-back="stepHoraire">← changer d'horaire</button></h2>
+    <div id="dates" class="chips"></div>
+    <p class="hint">Les jours grisés ne sont pas programmés pour cet horaire. Les TAF couvrent au plus 24 à 30 h.</p>
+  </section>
+
+  <section id="stepBriefing" class="step hidden">
+    <div class="toolbar no-print">
+      <button class="link" data-back="stepDate">← modifier</button>
+      <div class="spacer"></div>
+      <button id="refreshBtn" class="btn ghost">↻ Actualiser</button>
+      <button id="printBtn" class="btn">PDF / Imprimer</button>
+    </div>
+    <div id="briefing"></div>
+  </section>
+</main>
+
+<dialog id="settings">
+  <form method="dialog">
+    <h3>Réglages</h3>
+    <label>Limite vent de travers (kt, rafale incluse)
+      <input type="number" id="setXw" min="5" max="40" step="1"></label>
+    <p class="hint">À régler selon l'AFM et le Manex Twinjet. Valeur par défaut indicative.</p>
+    <label>Limite vent arrière (kt)
+      <input type="number" id="setTail" min="0" max="20" step="1"></label>
+    <label>Seuil d'alerte rafales (kt)
+      <input type="number" id="setGust" min="10" max="50" step="1"></label>
+    <div class="row"><button value="cancel" class="btn ghost">Annuler</button><button value="ok" id="saveSettings" class="btn">Enregistrer</button></div>
+  </form>
+</dialog>
+
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

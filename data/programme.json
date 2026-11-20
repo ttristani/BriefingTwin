@@ -1,0 +1,61 @@
+{
+  "saison": "Winter 2026",
+  "source": "Fiches briefing Twinjet (MAJ 14/10/2026 et 23/10/2026)",
+  "fuseau": "UTC",
+  "rotations": [
+    {
+      "id": "MRS-SXB-MRS",
+      "nom": "Marseille – Strasbourg",
+      "paires": [
+        { "aller": {"vol": "T7 2711", "atc": "ITI27RC", "dpt": "LFML", "std": "05:30", "sta": "07:10", "arv": "LFST", "alt": ["EDSB", "EDDR"], "jours": [1,2,3]},
+          "retour": {"vol": "T7 2712", "atc": "ITI27NF", "dpt": "LFST", "std": "07:40", "sta": "09:20", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3]} },
+        { "aller": {"vol": "T7 2713", "atc": "ITI27MR", "dpt": "LFML", "std": "10:00", "sta": "11:40", "arv": "LFST", "alt": ["EDSB", "EDDR"], "jours": [2,4]},
+          "retour": {"vol": "T7 2714", "atc": "ITI27RS", "dpt": "LFST", "std": "12:10", "sta": "13:50", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [2,4]} },
+        { "aller": {"vol": "T7 2717", "atc": "ITI27MS", "dpt": "LFML", "std": "16:30", "sta": "18:10", "arv": "LFST", "alt": ["EDSB", "EDDR"], "jours": [1,2,3,4,5]},
+          "retour": {"vol": "T7 2718", "atc": "ITI27XB", "dpt": "LFST", "std": "18:40", "sta": "20:20", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3,4,5]} }
+      ]
+    },
+    {
+      "id": "LPY-ORY-LPY",
+      "nom": "Le Puy – Paris-Orly",
+      "paires": [
+        { "aller": {"vol": "T7 081", "atc": "TJT81MK", "dpt": "LFHP", "std": "05:45", "sta": "06:55", "arv": "LFPO", "alt": ["LFPB", "LFPG"], "jours": [1,2,3,4]},
+          "retour": {"vol": "T7 082", "atc": "TJT82XP", "dpt": "LFPO", "std": "07:20", "sta": "08:25", "arv": "LFHP", "alt": ["LFLL", "LFLC"], "jours": [1,2,4]} },
+        { "aller": {"vol": "T7 087", "atc": "TJT87MK", "dpt": "LFHP", "std": "16:00", "sta": "17:10", "arv": "LFPO", "alt": ["LFPB", "LFPG"], "jours": [2,4,5]},
+          "retour": {"vol": "T7 088", "atc": "TJT88XP", "dpt": "LFPO", "std": "17:50", "sta": "18:55", "arv": "LFHP", "alt": ["LFLL", "LFLC"], "jours": [2,3,4,5]} }
+      ]
+    },
+    {
+      "id": "MRS-MXP-MRS",
+      "nom": "Marseille – Milan-Malpensa",
+      "paires": [
+        { "aller": {"vol": "T7 9011", "atc": "TJT91SZ", "dpt": "LFML", "std": "05:45", "sta": "07:00", "arv": "LIMC", "alt": ["LIML", "LIMF"], "jours": [1,2,3,4]},
+          "retour": {"vol": "T7 9012", "atc": "TJT92VP", "dpt": "LIMC", "std": "07:40", "sta": "08:55", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3,4]} },
+        { "aller": {"vol": "T7 9015", "atc": "TJT95SZ", "dpt": "LFML", "std": "17:10", "sta": "18:25", "arv": "LIMC", "alt": ["LIML", "LIMF"], "jours": [1,2,3,4,5]},
+          "retour": {"vol": "T7 9016", "atc": "TJT96VP", "dpt": "LIMC", "std": "19:05", "sta": "20:20", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3,4,5]} }
+      ]
+    },
+    {
+      "id": "MRS-TLS-MRS",
+      "nom": "Marseille – Toulouse",
+      "paires": [
+        { "aller": {"vol": "T7 1511", "atc": "TJT1511", "dpt": "LFML", "std": "06:00", "sta": "07:00", "arv": "LFBO", "alt": ["LFBT", "LFBP"], "jours": [1,2,3,4]},
+          "retour": {"vol": "T7 1512", "atc": "TJT1512", "dpt": "LFBO", "std": "07:25", "sta": "08:25", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3,4]} },
+        { "aller": {"vol": "T7 1517", "atc": "TJT1517", "dpt": "LFML", "std": "14:30", "sta": "15:30", "arv": "LFBO", "alt": ["LFBT", "LFBP"], "jours": [1,2,3,4,5]},
+          "retour": {"vol": "T7 1518", "atc": "TJT1518", "dpt": "LFBO", "std": "16:00", "sta": "17:00", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [1,2,3,4,5]} },
+        { "aller": {"vol": "T7 1519", "atc": "TJT1519", "dpt": "LFML", "std": "17:30", "sta": "18:30", "arv": "LFBO", "alt": ["LFBT", "LFBP"], "jours": [2,3,4]},
+          "retour": {"vol": "T7 1520", "atc": "TJT1520", "dpt": "LFBO", "std": "19:00", "sta": "20:00", "arv": "LFML", "alt": ["LFMV", "LFMT"], "jours": [2,3,4]} }
+      ]
+    },
+    {
+      "id": "SXB-LYS-SXB",
+      "nom": "Strasbourg – Lyon",
+      "paires": [
+        { "aller": {"vol": "ITI 2911", "atc": "ITI21KZ", "dpt": "LFST", "std": "05:15", "sta": "06:25", "arv": "LFLL", "alt": ["LFLY", "LFLS"], "jours": [1,2,3]},
+          "retour": {"vol": "ITI 2912", "atc": "ITI22HY", "dpt": "LFLL", "std": "07:35", "sta": "08:45", "arv": "LFST", "alt": ["EDSB", "EDDR"], "jours": [1,2,3]} },
+        { "aller": {"vol": "ITI 2915", "atc": "ITI25KZ", "dpt": "LFST", "std": "17:20", "sta": "18:30", "arv": "LFLL", "alt": ["LFLY", "LFLS"], "jours": [1,2,3,4,5]},
+          "retour": {"vol": "ITI 2916", "atc": "ITI26HY", "dpt": "LFLL", "std": "19:40", "sta": "20:50", "arv": "LFST", "alt": ["EDSB", "EDDR"], "jours": [1,2,3,4,5]} }
+      ]
+    }
+  ]
+}

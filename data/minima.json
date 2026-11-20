@@ -1,0 +1,25 @@
+{
+  "_lisezmoi": "Un terrain par code OACI. 'pistes' : QFU magnétiques APPROXIMATIFS (désignation x 10), à vérifier dans l'AIP. 'approches' : liste vide = hypothèse ILS CAT I (DA/H 200 ft, RVR 550 m) sur chaque QFU. Pour renseigner les vraies approches : {\"nom\": \"ILS Z 23\", \"qfu\": 233, \"type\": \"B\", \"dh\": 200, \"rvr\": 550} ; type 'B' (3D, DH < 250 ft), 'A' (2D ou 3D avec DH >= 250 ft), 'C' (circling, dh = MDH, rvr = VIS). dh en ft au-dessus du seuil/terrain, rvr en m.",
+  "terrains": {
+    "LFML": {"nom": "Marseille-Provence", "pistes": [134, 314], "approches": []},
+    "LFST": {"nom": "Strasbourg-Entzheim", "pistes": [53, 233], "approches": []},
+    "LFHP": {"nom": "Le Puy-Loudes", "pistes": [74, 254], "approches": [], "note": "Pas d'ILS a priori : renseigner les approches RNP/VOR"},
+    "LFPO": {"nom": "Paris-Orly", "pistes": [62, 242, 73, 253, 21, 201], "approches": []},
+    "LIMC": {"nom": "Milan-Malpensa", "pistes": [168, 348], "approches": []},
+    "LFBO": {"nom": "Toulouse-Blagnac", "pistes": [143, 323], "approches": []},
+    "LFLL": {"nom": "Lyon-Saint-Exupéry", "pistes": [175, 355], "approches": []},
+    "EDSB": {"nom": "Karlsruhe/Baden-Baden", "pistes": [31, 211], "approches": []},
+    "EDDR": {"nom": "Saarbrücken", "pistes": [85, 265], "approches": []},
+    "LFMV": {"nom": "Avignon-Provence", "pistes": [170, 350], "approches": []},
+    "LFMT": {"nom": "Montpellier-Méditerranée", "pistes": [120, 300], "approches": []},
+    "LFPB": {"nom": "Paris-Le Bourget", "pistes": [70, 250, 30, 210], "approches": []},
+    "LFPG": {"nom": "Paris-CDG", "pistes": [86, 266], "approches": []},
+    "LFLC": {"nom": "Clermont-Ferrand", "pistes": [77, 257], "approches": []},
+    "LIML": {"nom": "Milan-Linate", "pistes": [175, 355], "approches": []},
+    "LIMF": {"nom": "Turin-Caselle", "pistes": [180, 360], "approches": []},
+    "LFBT": {"nom": "Tarbes-Lourdes-Pyrénées", "pistes": [17, 197], "approches": []},
+    "LFBP": {"nom": "Pau-Pyrénées", "pistes": [128, 308], "approches": []},
+    "LFLY": {"nom": "Lyon-Bron", "pistes": [160, 340], "approches": []},
+    "LFLS": {"nom": "Grenoble-Isère", "pistes": [92, 272], "approches": []}
+  }
+}
