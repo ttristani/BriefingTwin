@@ -19,11 +19,11 @@ Web app pour iPad (PWA) : on choisit la rotation, l'horaire et la date, et l'app
 
 ## Mise en place (une seule fois)
 
-1. Créer un dépôt **public** `briefing-twinjet` sur GitHub et y déposer tous les fichiers. GitHub Pages est gratuit pour les dépôts publics.
+1. Créer un dépôt **public** (ici `BriefingTwin`) sur GitHub et y déposer tous les fichiers. GitHub Pages est gratuit pour les dépôts publics.
 2. **Settings → Pages** : dans Source, choisir « Deploy from a branch », puis la branche `main`, dossier `/ (root)`.
 3. **Settings → Actions → General** : dans Workflow permissions, choisir « Read and write permissions ».
 4. **Actions → Collecte météo et NOTAM → Run workflow**, pour une première collecte immédiate.
-5. Sur l'iPad, ouvrir `https://<ton-compte>.github.io/briefing-twinjet/` dans Safari, puis Partager → **Sur l'écran d'accueil**.
+5. Sur l'iPad, ouvrir `https://ttristani.github.io/BriefingTwin/` dans Safari, puis Partager → **Sur l'écran d'accueil**.
 
 ## Mettre à jour
 
